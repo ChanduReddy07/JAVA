@@ -9,7 +9,7 @@ class Spacecraft {
 		Flyable obj1 =()->{
 			System.out.println("Spacecraft is flying");
 		};
-
+		obj2.fly_obj();
 	}
 
 }
@@ -19,7 +19,7 @@ class Airplane {
 		Flyable obj2 =()->{
 			System.out.println("Airplane is flying");
 		};
-
+		obj2.fly_obj();
 	}
 
 }
@@ -27,7 +27,7 @@ class Airplane {
 public class Helicopter {
 	public static void main(String[] args) {
 		Flyable obj3 =()->{
-			System.out.println("Helicopter s flying");
+			System.out.println("Helicopter is flying");
 		};
 		obj3.fly_obj();
 
