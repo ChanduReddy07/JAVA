@@ -8,23 +8,23 @@ package test1;
 
 public class fivePattern {
   public static void main(String[] args) {
-      int np=29;
       int n=2;
       boolean value = true;
       for(int i=1;i<=4;i++) {
     	  for(int j=1;j<=i;j++) {
     		  while(true){
             	  value =true;
-                  for(int q=2;q<=n/2;q++){
-                	  n++;
-                      if(n%q==0){
+                  for(int k=2;k<=n/2;k++){
+                      if(n%k==0){
                     	  value= false;
                       }
                   }
                   if(value==true){
                       System.out.print(n+" ");
+                      n++;
                       break;
                   }
+                  n++;
               }  
     	  }
     	  System.out.println();

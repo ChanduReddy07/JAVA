@@ -7,7 +7,7 @@ interface Flyable{
 class Spacecraft {
 	public static void main(String[] args) {
 		Flyable obj1 =()->{
-			System.out.println("Apacecraft");
+			System.out.println("Spacecraft is flying");
 		};
 
 	}
@@ -17,7 +17,7 @@ class Spacecraft {
 class Airplane {
 	public static void main(String[] args) {
 		Flyable obj2 =()->{
-			System.out.println("Airplane");
+			System.out.println("Airplane is flying");
 		};
 
 	}
@@ -27,7 +27,7 @@ class Airplane {
 public class Helicopter {
 	public static void main(String[] args) {
 		Flyable obj3 =()->{
-			System.out.println("Helicopter");
+			System.out.println("Helicopter s flying");
 		};
 		obj3.fly_obj();
 

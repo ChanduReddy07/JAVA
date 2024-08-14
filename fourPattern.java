@@ -5,6 +5,7 @@
 //64 65 66 67 68 69 70 71
 
 package test1;
+import java.lang.Math;
 
 public class fourPattern {
   public static void main(String[] args) {
@@ -14,8 +15,8 @@ public class fourPattern {
       for(int i=1;i<=rows-1;i++){
           temp=temp*2;
           start=temp;
-          for(int j=1;j<=2*i;j++){
-              System.out.print(start++);
+          for(int j=1;j<=Math.pow(2, i);j++){
+              System.out.print(start++ +" ");
           }
           System.out.println();
       }
